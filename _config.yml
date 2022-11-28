@@ -27,8 +27,14 @@ description: >- # this means to ignore newlines until "baseurl:"
 baseurl: "" # the subpath of your site, e.g. /blog
 domain: hanyakus.github.io
 url: https://hanyakus.github.io # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+twitter_username: HanYakus
+github_username:  HannaYakusevych
+
+gems:           ['jekyll-multiple-languages']
+# The all languages used
+languages:          ['en', 'ukr']
+# If not config, the first item of languages will be used as the default.
+language_default:   'en'
 
 # Build settings
 theme: minima
